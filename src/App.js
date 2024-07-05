@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Download from './components/Download';
@@ -11,6 +10,9 @@ import Compare from './Compare';
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Login from './Login';
 import Create from './Create';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
